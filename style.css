@@ -1,0 +1,228 @@
+@font-face {
+  font-family: 'DMSans';
+  src: url(./fonts/DMSans-Regular.ttf);
+} 
+
+body {
+  font-family:'DMSans';
+}
+
+.header-block {
+  width: 1440px;
+  display: flex;
+
+}
+
+.header-left-block {
+  display: flex;
+}
+
+.logo {
+  width: 93px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding: 23px 93px 20px 79px;
+}
+
+.uz {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.car {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 47px;
+  text-decoration: underline;
+
+}
+
+.header {
+  list-style-type: none;
+  display: inline-flex;
+  display: flex;
+}
+
+.header1 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  padding: 31px 33px 30px 0px;
+  width: 122px;
+  height: 29px;
+}
+
+.header2 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  padding: 31px 31px 31px 0px;
+  width: 127px;
+  height: 29px;
+}
+
+.header3 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 29px;
+  width: 158px;
+  height: 29px;
+  padding: 31px 235px 30px 0px;
+
+}
+
+.telephone-decoration {
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.telephone {
+  padding: 34px 40px 33px 0px;
+  width: 165px;
+  height: 23px;
+  align-self: center;
+
+}
+
+.header-icons {
+  justify-content: center;
+  gap: 34px;
+  display: flex;
+  align-items: center;
+}
+
+
+.header-icon {
+  width: 20px;
+  height: 20px;
+  gap: 34px;
+
+}
+
+.header-images {
+  padding: 22px 80px 20px 40px;
+  justify-content: center;
+
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+.block-1 {
+  width: 1281px;
+  display: flex;
+  padding: 0px 80px;
+  margin-bottom: 208px;
+
+}
+
+.block-1-left {
+  padding-top: 140px;
+  padding-left: 62px;
+
+}
+
+.block-1-left-text-1 {
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 53px;
+  width: 627px;
+  margin-bottom: 15px;
+}
+.block-1-left-text-2 {
+  font-weight: 400;
+  line-height: 36px;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+.header-right-block {
+  display: flex;
+}
+
+.block-1-input {
+  padding: 17px 0px 17px 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.6);
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  width: 514px;
+  position: absolute;
+
+}
+
+.block-1-right {
+  position: relative;
+
+}
+.block-1-button {
+  width: 75px;
+  background: rgba(66, 0, 255, 0.8);
+  border-radius: 8px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 2px;
+  left: 462px;
+  height: 58px;
+}
+
+.block-1-wheel-img {
+  width: 150%;
+  position: absolute;
+  left: -110px; 
+  top: 35px;
+}
+
+.block-1-shadow-img {
+  top: 420px;
+  position: relative;
+  left: 85px;
+ 
+}
+.block-2 {
+  padding: 0px 80px;
+  display: flex;
+  gap: 22px;
+}
+
+.block-2-card {
+  display: flex;
+
+}
+
+.block-2-card-text-block-1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+
+.block-2-card-text-block-2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 190px;
+}
+
+.block-2-card-img {
+  width: 142px;
+  margin-right: 34px;
+
+}
+
+.block-2-card-text-block {
+  padding: 36px 30px 0px 0px;
+}
