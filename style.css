@@ -193,6 +193,7 @@ a {
   padding: 0px 80px;
   display: flex;
   gap: 22px;
+  margin-bottom: 85px;
 }
 
 .block-2-card {
@@ -225,4 +226,323 @@ a {
 
 .block-2-card-text-block {
   padding: 36px 30px 0px 0px;
+}
+
+.block-3 {
+  width: 1440px;
+  padding-left: 91px;
+  padding-right: 106px;
+  display: flex;
+}
+
+.block-3-menu-list {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block-3-menu-text {
+  list-style-type: none;  
+}
+
+.block-3-menu-item1 {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  background: #4200FF;
+  border-radius: 5px;
+  text-align: center;
+  color: #FFFFFF;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px 20px 20px;
+
+}
+
+.block-3-menu-item2 {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.9);
+  padding: 20px 30px 20px 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.block-3-menu-item-block {
+  display: flex;
+  align-items: center;
+  
+}
+
+.block-3-img {
+  margin-right: 19px;
+  width: 36px;
+  height: 36px;
+}
+
+.block-3-right-price-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-3-right-card {
+  width: 278px;
+
+  
+}
+
+.block-3-right-card-img-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 38px;
+  padding-top: 25px;
+}
+
+.block-3-right-card-img {
+  width: 128px;
+  height: 186px;
+}
+
+.block-3-right-text {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+  margin-bottom: 20px;
+  width: 222px;
+  padding: 0 20px;
+ 
+}
+
+.block-3-right-price-block {
+  padding: 0 20px;
+}
+.block-3-star {
+  width: 15px;
+  height: 15px;
+}
+
+/* .block-3-star:last-child {
+  margin-right: unset;
+} */
+
+.block-3-right-price {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #4200FF;
+  margin-bottom: 20px;
+  
+}
+
+.block-3-right-star {
+  margin-right: 77px;
+}
+
+.block-3-right {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block-4-menu {
+  display: flex;
+  justify-content: end;
+  gap: 8px;
+  margin-right: 86px;
+}
+
+
+.block-4 {
+  width: 1440px;
+  margin-bottom: 60px;
+}
+
+.block-4-cards-1 {
+  background: #919EAB;
+  opacity: 0.5;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.block-4-cards-2 {
+  font-family:'DM Sans';
+  background: #FFFFFF;
+  border: 1px solid #4200FF;
+  border-radius: 4px;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4200FF;
+}
+
+.block-4-cards-3 {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #212B36;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.block-4-cards-4 {
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.block-5 {
+  width: 1440px;
+  padding: 60px 79px 80px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.block-5-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block-5-card-img {
+  width: 126px;
+  height: 63px;
+  margin-right: 35px;
+}
+
+.block-5-card-img-24-7 { 
+  width: 80px;
+  height: 32px;
+  margin-right: 35px;
+
+}
+
+.block-5-card-text-block-1 {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+  width: 201px;
+}
+
+.block-5-card-text-block-2 {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  width: 195px;
+}
+
+.block-6 {
+  display: flex;
+  padding: 99px 80px 82px 120px;
+}
+
+.block-6-text {
+  
+  
+}
+
+.block-6-text-1 {
+  font-family: 'DM Sans';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  color: #000000;
+  width: 530px;
+  margin-bottom: 40px;
+}
+
+
+.block-6-text-2 {
+  border-color: #000000;
+  position: relative;
+
+}
+
+.block-6-arrow {
+  position: absolute;
+  left: 200px;
+}
+
+
+
+.block-6-input {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  color: #000000;
+  padding: 10px 30px 10px 20px;
+  border-radius: 5px;
+  border-width: 3px;
+  width: 220px;
+  bottom: 23px;
+}
+
+.block-6-car {
+  width: 694px;
+  height: 358px;
+  padding: 80px 84px 82px 12px;
+
+}
+
+.name {
+  font-family: 'DM Sans';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.block-7 {
+  display: flex;
+  gap: 20px;
+  padding: 0 80px;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+}
+
+.block-7-card {
+  width: 303px;
+}
+
+.block-7-card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
